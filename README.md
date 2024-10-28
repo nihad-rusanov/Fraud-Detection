@@ -51,7 +51,7 @@ sns.countplot(x='Class', data=df)
 plt.title('Class Distribution')
 plt.show()
 ```
-![](./images/Screenshot (137).png)
+![](./images/Screenshot_137.png)
 
 ### 3. **Data Preprocessing**
 
@@ -79,7 +79,7 @@ sns.heatmap(corr_matrix, cmap='coolwarm_r')
 plt.title('Correlation Matrix')
 plt.show()
 ```
-![](./images/Screenshot (139).png)
+![](./images/Screenshot_139.png)
 
 ### 5. **Train-Test Split**
 
@@ -133,8 +133,8 @@ sns.heatmap(cm_lr, annot=True, fmt='d')
 plt.title('Logistic Regression Confusion Matrix')
 plt.show()
 ```
-![](./images/Screenshot (135).png)
-![](./images/Screenshot (141).png)
+![](./images/Screenshot_135.png)
+![](./images/Screenshot_141.png)
 
 
 ## Running the Script
